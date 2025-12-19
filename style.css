@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #001F3F;
+    color: #fff;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    text-align: center;
+    z-index: 100;
+}
+
+h1 {
+    margin: 0;
+    color: #FFD700;
+    font-size: 2em;
+}
+
+nav a {
+    color: #FFD700;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.hero {
+    background: url('https://cdn.mos.cms.futurecdn.net/br4FkqpBujNhxsTfxgtXdE.jpg') no-repeat center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text {
+    background: rgba(106, 27, 154, 0.7);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+h2 {
+    color: #FFD700;
+    text-align: center;
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+
+.story {
+    margin-bottom: 30px;
+}
+
+.gallery img, .facts-img img {
+    width: 100%;
+    max-width: 500px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #FFD700;
+}
+
+.facts-list {
+    columns: 2;
+    column-gap: 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+button {
+    background: #6A1B9A;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+}
+
+
+
+
+
